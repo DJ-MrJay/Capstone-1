@@ -57,8 +57,15 @@
     background-image: url(images/landing-bkg-pattern.svg), url(images/landing-bkg.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
-    padding: 5% 5% 15%;
+    padding: 5%;
     
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem 0;
   }
 
   .bounding-box {
@@ -67,4 +74,35 @@
     padding: 1rem;
   }
 
-  
+  .program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: #272a31;
+    padding: 3rem 5%;
+    color: #ffffff;
+  }
+
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .grid-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    align-items: center;
+    padding: 1rem;
+    gap: 5px;
+    background-color: #ffffff25;
+  }
+
+  .program button {
+    border: none;
+    color: #ffffff;
+    background-color: #ec5242;
+    width: 80%;
+    padding: 1.5rem;
+  }
