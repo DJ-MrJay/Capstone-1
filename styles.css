@@ -5,6 +5,7 @@
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -15,7 +16,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   line-height: 32px;
   scolor: #ec5242;
 }
@@ -30,7 +32,13 @@ h4 {
   font-style: italic;
 }
 
-.home {
+.headline h1, h2, {
+  color: #ec5242;
+}
+
+#home,
+#about,
+footer {
   max-width: 768px;
   margin: auto;
 }
@@ -50,15 +58,7 @@ h4 {
   display: none;
 }
 
-.close-icon {
-  display: none;
-}
-
 .menu {
-  display: none;
-}
-
-.mobile-menu {
   display: none;
 }
 
@@ -66,7 +66,7 @@ h4 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background-image: url(images/landing-bkg-pattern.svg), url(images/landing-bkg.jpg);
+  background-image: url(images/landing-bkg-pattern-sm.svg), url(images/landing-bkg.jpg);
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
   padding: 5%;
@@ -125,10 +125,10 @@ h4 {
 
 .program button {
   border: none;
-  color: #ffffff;
+  color: #ffffff; 
   background-color: #ec5242;
   width: 80%;
-  padding: 1.5rem;
+  padding: 1.3rem;
 }
 
 .artists {
@@ -163,7 +163,7 @@ h4 {
   flex-direction: column;
   gap: 1.5rem;
   background-color: #272a31;
-  background-image: url(images/landing-bkg-pattern.svg);
+  background-image: url(images/landing-bkg-pattern-sm.svg);
   background-repeat: no-repeat;
   background-size: cover, cover;
   padding: 5%;
@@ -242,44 +242,61 @@ h4 {
 
 footer {
   padding: 2rem 5%;
-  stext-align: center;
+}
+
+footer h6 {
+  text-align: right;
 }
 
 .footer-items {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
 
 .footer-items img {
-  max-width: 45%;
+  max-width: 40%;
 }
 
 .mobile-menu {
   position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 99;
-  padding: 20% 8%;
+  z-index: 98;
+  padding: 20% 5%;
   background: #272a31;
-  opacity: 0.95;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
+  opacity: 0.98;
+  font-size: 24px;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1rem;
 }
 
-.menu a {
-  color: #fff;
+.mobile-menu a {
+  color: #ffffff;
 }
 
+.mobile-menu a:hover {
+  color: #ec5242;
+}
+
+.hamburger {
+  color: #272a31;
+}
+
+.close-icon {
+  display: none;
+  color: #ec5242;
+  z-index: 100;
+}
+  
 .showMenu {
-  transform: translateY(0);
+  transform: translateX(0);
 }

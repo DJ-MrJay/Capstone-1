@@ -1,23 +1,22 @@
-const menu = document.querySelector('.menu');
-const menuItem = document.querySelectorAll('.menu-item');
+const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
-const menuIcon = document.querySelector('.hamburger');
+const menuItem = document.querySelectorAll('.menu-item');
 const closeIcon = document.querySelector('.close-icon');
 
 function toggleMenu() {
-  if (menu.classList.contains('showMenu')) {
-    menu.classList.remove('showMenu');
+  if (mobileMenu.classList.contains('showMenu')) {
+    mobileMenu.classList.remove('showMenu');
     closeIcon.style.display = 'none';
-    menuIcon.style.display = 'block';
+    hamburger.style.display = 'block';
   } else {
-    menu.classList.add('showMenu');
+    mobileMenu.classList.add('showMenu');
     closeIcon.style.display = 'block';
-    menuIcon.style.display = 'none';
+    hamburger.style.display = 'none';
   }
 }
 
-mobileMenu.addEventListener('click', toggleMenu);
-
+hamburger.addEventListener('click', toggleMenu);
+closeIcon.addEventListener('click', toggleMenu);
 menuItem.forEach(
   (menuItem) => {
     menuItem.addEventListener('click', toggleMenu);
