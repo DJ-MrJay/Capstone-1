@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,22 +26,22 @@
         <li>Logout</li>
       </ul>
     </div>
-    
-  
+
     <nav>
       <div class="logo">
         <a href="#home">CONF.</a>
       </div>
-  
+
+      <a href="#" class="close-icon"><i class="fa fa-times" aria-hidden="true"></i></a>
+
       <ul class="mobile-menu">
-        <li><i class="fa fa-times" aria-hidden="true"></i></a></li>
-        <li>Home</li>
-        <li>Events</li>
-        <li>Artists</li>
-        <li>Contact</li>
-        <li>Booking</li>
+        <li class="menu-item">Home</li>
+        <li class="menu-item">Events</li>
+        <li class="menu-item">Artists</li>
+        <li class="menu-item">Contact</li>
+        <li class="menu-item">Booking</li>
       </ul>
-      
+
       <ul class="menu">
         <li>Home</li>
         <li>Events</li>
@@ -52,107 +53,219 @@
   </header>
 
   <main>
-    <section class="headline">
-      <div class="hamburger">
-        <i class="fas fa-bars fa-2x"></i>
-      </div>
-  
-      <div class="intro-container">
-        <div class="intro">
-          <h3>Hello! Sharing World!</h3>
-          <h1>GET IMMERSED IN THE MELODY.</h1>
+    <section class="home" id="home">
+      <div class="headline">
+        <a href="#" class="hamburger">
+          <a href="">
+            <i class="fas fa-bars fa-2x"></i></a>
+        </a>
+
+        <div class="intro-container">
+          <div class="intro">
+            <h2>"Hello Party World!"</h2>
+            <h1>THE ANNUAL PEACE CONCERT 2022</h1>
+          </div>
+
+          <p class="bounding-box">The biggest concert festival of the decade, featuring legendary bands and singers.
+            Bringing
+            a nostalgic atmosphere along with the euphoria that really touches your soul.</p>
+
+          <div class="venue">
+            <h2>05.08.2022 (Fri) ~ 7 (Sun) </h2>
+            <p>@ The People's National Stadium, Nairobi.</p>
+          </div>
         </div>
-    
-        <p class="bounding-box">The biggest concert festival of the decade, featuring legendary bands and singers. Bringing
-          a nostalgic atmosphere along with the euphoria that really touches your soul.</p>
-    
-        <div class="venue">
-          <h2>05.08.2022 (Fri) ~ 7 (Sun) </h2>
-          <p>@ The People's National Stadium, Nairobi.</p>
-        </div>
       </div>
-      
+
+      <div class="program">
+        <h3>Main Program</h3>
+
+        <ul class="flex-item-program">
+          <li class="grid-item">
+            <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
+            </div>
+
+            <div class="title">
+              <h3>Local Acts</h3>
+            </div>
+
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
+            </div>
+          </li>
+
+          <li class="grid-item">
+            <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
+            </div>
+
+            <div class="title">
+              <h3>Local Acts</h3>
+            </div>
+
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
+            </div>
+          </li>
+
+          <li class="grid-item">
+            <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
+            </div>
+
+            <div class="title">
+              <h3>Local Acts</h3>
+            </div>
+
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
+            </div>
+          </li>
+
+          <li class="grid-item">
+            <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
+            </div>
+
+            <div class="title">
+              <h3>Local Acts</h3>
+            </div>
+
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
+            </div>
+          </li>
+
+          <li class="grid-item">
+            <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
+            </div>
+
+            <div class="title">
+              <h3>Local Acts</h3>
+            </div>
+
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
+            </div>
+          </li>
+        </ul>
+
+        <button>
+          <h3>Get Your Tickets</h3>
+        </button>
+      </div>
+
+      <div class="artists">
+        <h3>Featured Artists</h3>
+
+        <ul class="flex-item-artists">
+          <li class="grid-item2">
+            <div class="thumbnail">
+              <img src="images/OneRepublic.jpg" alt="">
+            </div>
+
+            <div class="description">
+              <h3>OneRepublic</h3>
+              <h4>Hits from their latest album</h4>
+              <p>See the show as an exclusive VIP and get amazing seats, lounge access and more.</p>
+            </div>
+          </li>
+
+          <li class="grid-item2">
+            <div class="thumbnail">
+              <img src="images/TheLumineer.jpg" alt="">
+            </div>
+
+            <div class="description">
+              <h3>The Lumineers</h3>
+              <h4>Hits from their latest album</h4>
+              <p>Don't miss your chance to see the BRIGHTSIDE World Tour.</p>
+            </div>
+          </li>
+        </ul>
+
+        <button class="more">
+          <h3>MORE</h3>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+      </div>
     </section>
 
-    <section class="program">
-      <h3>Main Program</h3>
+    <section class="about" id="about">
+      <div class="headline-about">
+        <div class="intro-container">
+          <div class="intro">
+            <h2>"Hello Party World!"</h2>
+            <h1>THE ANNUAL PEACE CONCERT 2022</h1>
+          </div>
 
-      <ul class="flex-item">
-        <li class="grid-item">
-          <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
-          </div>
-          
-          <div class="title">
-            <h3>Local Acts</h3>
-          </div>
-          
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
-          </div>
-        </li>
+          <p class="bounding-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda perferendis
+            iusto fuga reprehenderit quisquam vero, facilis consectetur numquam in unde asperiores, minus tenetur quasi!
+            Sit reprehenderit placeat perferendis vel.
+          </p>
 
-        <li class="grid-item">
-          <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
+          <div class="contact-about">
+            <p>Please contact us through our email for any further questions about The Annual Peace Concert.<br><span
+                style="text-decoration: underline;"><strong>enquiries@thepeaceconcert.ke</strong></span></p>
           </div>
-          
-          <div class="title">
-            <h3>Local Acts</h3>
-          </div>
-          
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
-          </div>
-        </li>
+        </div>
+      </div>
 
-        <li class="grid-item">
-          <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
-          </div>
-          
-          <div class="title">
-            <h3>Local Acts</h3>
-          </div>
-          
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
-          </div>
-        </li>
+      <div class="logo-about">
+        <h3>The Annual Peace Concert 2022 Logo</h3>
 
-        <li class="grid-item">
-          <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
-          </div>
-          
-          <div class="title">
-            <h3>Local Acts</h3>
-          </div>
-          
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
-          </div>
-        </li>
+        <p class="logo-about-description">The logo of The Annual Peace Concert was decided through the logo competition
+          that ran from 8. June to 7. July</p>
 
-        <li class="grid-item">
-          <div class="icon"><i class="fas fa-volume-up fa-2x"></i>
-          </div>
-          
-          <div class="title">
-            <h3>Local Acts</h3>
-          </div>
-          
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, unde.
-          </div>
-        </li>
-      </ul>
+        <div class="logo-box">
+          <img src="images/concert-logo.svg" alt="Concert Logo">
+        </div>
+      </div>
 
-      <button><h3>Get Your Tickets</h3></button>
+      <hr>
+
+      <div class="logo-about">
+        <h3 class="logo-about-title">See Past Annual Peace Concerts</h3>
+
+        <p class="logo-about-description">Take a look at the last Annual Peace Concerts which took place in Eldoret and
+          in Kisumu.</p>
+
+        <div class="grid-item-past">
+          <div class="image-container">
+            <img src="images/last-concert-2021.jpg" alt="Last Concert 2021">
+            <div class="centered">
+              <h1>2021</h1>
+              <p>Annual Peace Concert 2021 in Eldoret</p>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="images/last-concert-2020.jpg" alt="Last Concert 2020">
+            <div id="overlay"></div>
+            <div class="centered">
+              <h1>2020</h1>
+              <p>Annual Peace Concert 2020 in Kisumu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="partners">
+        <h3>Partners</h3>
+        <div class="partner-logos">
+          <img src="images/Spotify_Logo_RGB_White.svg" alt="Spotify" class="logo-item">
+          <img src="images/Deezer_logo_white.svg" alt="Deezer" class="logo-item">
+          <img src="images/Tidal_white_logo.svg" alt="Tidal" class="logo-item">
+          <img src="images/Amazon_Music_logo_white.svg" alt="Amazon Music" class="logo-item">
+          <img src="images/AppleMusic_white.svg" alt="Apple Music" class="logo-item">
+        </div>
+      </div>
     </section>
   </main>
-  
 
-
-  
-  
-  
+  <footer>
+    <div class="footer-items">
+      <img src="images/footer-logo.svg" alt="Footer Logo">
+      <h6>© 2022 The Annual Peace Concert. All rights reserved.</h6>
+    </div>
+  </footer>
   <script src="./main.js"></script>
 </body>
 
