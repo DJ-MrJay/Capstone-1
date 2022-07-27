@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.95;fill:#FFFFFF;enable-background:new    ;}
+	.st0{opacity:0.9;fill:#FFFFFF;enable-background:new    ;}
 	.st1{fill:#21262E;}
 	.st2{fill:none;stroke:#FF513F;stroke-width:9.7213;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st3{opacity:0.5;}
@@ -17,13 +17,13 @@
 <rect x="-23" y="-25" class="st0" width="1977" height="1130"/>
 <g>
 	
-		<image style="overflow:visible;opacity:0.75;enable-background:new    ;" width="299" height="62" xlink:href="61E0277A.png"  transform="matrix(6.099353e-17 -0.9961 0.9961 6.099353e-17 1370.7837 654.0835)">
+		<image style="overflow:visible;opacity:0.75;enable-background:new    ;" width="299" height="62" xlink:href="61E0277A.png"  transform="matrix(0.7043 -0.7043 0.7043 0.7043 1504.5304 588.631)">
 	</image>
 	<g>
-		<polyline class="st1" points="1383.2,645 1416.5,611.2 1383.2,577.4 1416.5,543.6 1383.2,509.8 1416.5,476 1383.2,442.2 
-			1416.5,408.4 1383.2,374.6 		"/>
-		<polyline class="st2" points="1383.2,645 1416.5,611.2 1383.2,577.4 1416.5,543.6 1383.2,509.8 1416.5,476 1383.2,442.2 
-			1416.5,408.4 1383.2,374.6 		"/>
+		<polyline class="st1" points="1519.7,591 1567.2,590.7 1567.5,543.2 1615,542.9 1615.3,495.4 1662.8,495.1 1663.1,447.6 
+			1710.6,447.3 1710.9,399.8 		"/>
+		<polyline class="st2" points="1519.7,591 1567.2,590.7 1567.5,543.2 1615,542.9 1615.3,495.4 1662.8,495.1 1663.1,447.6 
+			1710.6,447.3 1710.9,399.8 		"/>
 	</g>
 </g>
 <g class="st3">

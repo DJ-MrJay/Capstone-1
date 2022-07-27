@@ -22,6 +22,8 @@ menuItem.forEach((menuItem) => {
   },
 );
 
+
+
 const artist = [{
     image: 'images/OneRepublic.jpg',
     name: 'OneRepublic',
@@ -45,7 +47,7 @@ const artist = [{
 
   {
     image: 'images/MeganTheeStallion.jpg',
-    name: 'Meagan Thee Stallion',
+    name: 'Megan Thee Stallion',
     performance: 'Hits from her latest album',
     description: 'Megan Thee Stallion is an American rapper who first garnered attention when videos of her freestyling became popular on Instagram.',
   },
