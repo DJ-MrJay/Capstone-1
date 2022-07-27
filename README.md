@@ -31,9 +31,9 @@ This project is [live](https://dj-mrjay.github.io/Capstone-1/) on Github Pages.
 
 ## Credits
 
-A special thanks to [Cindy Shin in Behance](https://www.behance.net/adagio07) for original design idea.
+A special thanks to [Cindy Shin in Behance](https://www.behance.net/adagio07) for the original design idea.
 
 ## License
 
-This project is [Creative Commons](./LICENSE.md) licensed.
+This project is [Creative Commons](./LICENSE) licensed.
 
