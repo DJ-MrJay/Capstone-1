@@ -78,3 +78,18 @@ for (let i = 0; i < artist.length; i += 1) {
     </div>
   </li>`;
 }
+
+//Sticky Navbar
+
+let navbar = document.getElementById('navbar');
+let navPos = navbar.getBoundingClientRect().top;
+
+window.addEventListener("scroll", e => {
+  let scrollPos = window.scrollY;
+  if (scrollPos > navPos) {
+    navbar.classList.add('sticky');
+  } 
+  else {
+    navbar.classList.remove('sticky');
+  }
+});

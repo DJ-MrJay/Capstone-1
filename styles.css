@@ -370,10 +370,17 @@ footer h6 {
 
   nav {
     padding: 15px 15%;
-    background-color: #fff;
+    background-color: #fffffffa;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
   }
 
   .logo {
