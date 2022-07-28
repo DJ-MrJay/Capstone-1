@@ -17,7 +17,6 @@
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-
 }
 
 .intro h2 {
@@ -43,9 +42,8 @@ h4 {
 }
 
 .headline h1,
-h2,
-{
-color: #ec5242;
+.headline h2 {
+  color: #ec5242;
 }
 
 .toolbar-container {
@@ -79,7 +77,7 @@ color: #ec5242;
 
 .bounding-box {
   background-color: #e5e5e5;
-  border: #ffffff 3px solid;
+  border: #fff 3px solid;
   padding: 1.5rem;
 }
 
@@ -91,7 +89,7 @@ color: #ec5242;
   background-color: #272a31;
   background-image: url(images/mesh.svg);
   padding: 3rem 5%;
-  color: #ffffff;
+  color: #fff;
 }
 
 .item-program {
@@ -130,10 +128,13 @@ color: #ec5242;
 
 .program button {
   border: none;
-  color: #ffffff;
   background-color: #ec5242;
   width: 80%;
   padding: 1.3rem;
+}
+
+.tickets a {
+  color: #ffffff;
 }
 
 .artists {
@@ -177,12 +178,15 @@ color: #ec5242;
   background-size: cover, cover;
   padding: 5%;
   text-align: center;
-
 }
 
 .contact-about {
   width: 90%;
   align-self: center;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .logo-about {
@@ -232,7 +236,7 @@ color: #ec5242;
   flex-flow: column;
   gap: 2rem;
   background-color: #272a31;
-  color: #ffffff;
+  color: #fff;
   padding: 2rem 5%;
   text-align: center;
 }
@@ -273,7 +277,6 @@ footer h6 {
   display: none;
 }
 
-
 .mobile-menu {
   position: fixed;
   transform: translateX(-100%);
@@ -287,14 +290,14 @@ footer h6 {
   background: #272a31;
   opacity: 0.98;
   font-size: 24px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 .mobile-menu a {
-  color: #ffffff;
+  color: #fff;
 }
 
 .mobile-menu a:hover {
@@ -315,13 +318,13 @@ footer h6 {
   transform: translateX(0);
 }
 
-/*======================================================================*/
+/* ====================================================================== */
 
 @media (min-width: 768px) {
   .toolbar-container {
     display: flex;
     justify-content: flex-end;
-    color: #ffffff;
+    color: #fff;
     width: 100%;
     margin: auto;
     padding: 5px 15%;
@@ -337,10 +340,11 @@ footer h6 {
 
   nav {
     padding: 15px 15%;
-    background-color: #ffffff;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     /* position: fixed; */
   }
 
@@ -420,7 +424,7 @@ footer h6 {
 
   .program button {
     border: none;
-    color: #ffffff;
+    color: #fff;
     background-color: #ec534200;
     width: fit-content;
     padding: 0;
@@ -451,6 +455,7 @@ footer h6 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5% 15%;
+
     /* text-align: center; */
   }
 
@@ -462,7 +467,6 @@ footer h6 {
   .about .intro h2 {
     display: none;
   }
-
 
   .about .bounding-box {
     width: 100%;
