@@ -79,17 +79,16 @@ for (let i = 0; i < artist.length; i += 1) {
   </li>`;
 }
 
-//Sticky Navbar
+// Sticky Navbar
 
-let navbar = document.getElementById('navbar');
-let navPos = navbar.getBoundingClientRect().top;
+const navbar = document.getElementById('navbar');
+const navPos = navbar.getBoundingClientRect().top;
 
-window.addEventListener("scroll", e => {
-  let scrollPos = window.scrollY;
+window.addEventListener('scroll', () => {
+  const scrollPos = window.scrollY;
   if (scrollPos > navPos) {
     navbar.classList.add('sticky');
-  } 
-  else {
+  } else {
     navbar.classList.remove('sticky');
   }
 });
