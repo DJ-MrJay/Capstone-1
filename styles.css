@@ -39,6 +39,7 @@
 
 h4 {
   font-style: italic;
+  color: #ec5242;
 }
 
 .headline h2 {
@@ -75,8 +76,14 @@ h4 {
 }
 
 .bounding-box {
-  background-color: #e5e5e5;
+  background-color: #efefef;
   border: #fff 3px solid;
+  padding: 1.5rem;
+}
+
+.bounding-box-about {
+  background-color: #fff;
+  border: #efefef 1px solid;
   padding: 1.5rem;
 }
 
@@ -140,6 +147,7 @@ h4 {
   align-items: center;
   gap: 3rem;
   padding: 2rem 5%;
+  background-color: #f8f8f8;
 }
 
 .artists button {
@@ -155,7 +163,6 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  font-size: 18px;
 }
 
 .fa-chevron-down {
@@ -176,11 +183,6 @@ h4 {
   background-size: cover, cover;
   padding: 5%;
   text-align: center;
-}
-
-.headline-about .hamburger,
-.headline-about .close-icon {
-  align-self: flex-start;
 }
 
 .contact-about {
@@ -211,6 +213,10 @@ h4 {
   align-self: center;
 }
 
+hr {
+  border-top: #e5e5e5;
+}
+
 .grid-item-past {
   display: flex;
   flex-wrap: wrap;
@@ -234,7 +240,7 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
-.partners {
+.mobile {
   display: flex;
   flex-flow: column;
   gap: 2rem;
@@ -244,10 +250,14 @@ h4 {
   text-align: center;
 }
 
+.home-mobile {
+  display: none;
+}
+
 .partner-logos {
   display: flex;
   flex-flow: row wrap;
-  gap: 1rem;
+  gap: 3rem;
   justify-content: center;
 }
 
@@ -256,8 +266,20 @@ h4 {
   opacity: 50%;
 }
 
-footer {
-  padding: 2rem 5%;
+.light {
+  padding: 3rem 5%;
+  background-color: #f8f8f8;
+  display: none;
+}
+
+.dark {
+  display: none;
+}
+
+.light-about {
+  padding: 3rem 5%;
+  background-color: #f8f8f8;
+  display: block;
 }
 
 footer h6 {
@@ -317,6 +339,11 @@ footer h6 {
   z-index: 100;
 }
 
+.headline-about .hamburger,
+.headline-about .close-icon {
+  align-self: flex-start;
+}
+
 .showMenu {
   transform: translateX(0);
 }
@@ -347,8 +374,6 @@ footer h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    /* position: fixed; */
   }
 
   .logo {
@@ -366,6 +391,10 @@ footer h6 {
     color: #272a31;
   }
 
+  .menu a:active {
+    color: #ec5242;
+  }
+
   .menu a:hover {
     color: #ec5242;
   }
@@ -375,7 +404,7 @@ footer h6 {
     padding: 4px 10px;
   }
 
-  .hamburger {
+  .headline .hamburger {
     display: none;
   }
 
@@ -458,8 +487,6 @@ footer h6 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5% 15%;
-
-    /* text-align: center; */
   }
 
   .about .intro {
@@ -496,12 +523,21 @@ footer h6 {
   }
 
   .partners {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    background-color: #272a31;
+    color: #fff;
     padding: 3rem 15%;
     text-align: center;
   }
 
+  .desk {
+    display: none;
+  }
+
   .partner-logos {
-    gap: 1.7rem;
+    gap: 4rem;
   }
 
   .logo-item {
@@ -509,8 +545,20 @@ footer h6 {
     opacity: 50%;
   }
 
-  footer {
+  .light {
+    display: block;
     padding: 3rem 15%;
+  }
+
+  .light-about {
+    display: none;
+  }
+
+  .dark {
+    padding: 3rem 15%;
+    background-color: #272a31;
+    color: #e5e5e5;
+    display: block;
   }
 
   footer h6 {
