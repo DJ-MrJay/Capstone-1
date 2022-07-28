@@ -131,10 +131,7 @@ h4 {
   width: 80%;
   padding: 1.3rem;
   color: #fff;
-}
-
-.tickets a {
-  color: #fff;
+  font-size: 18px;
 }
 
 .artists {
