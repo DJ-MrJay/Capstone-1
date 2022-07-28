@@ -12,7 +12,7 @@
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 45px;
   line-height: 52px;
-  color: #ff1900af;
+  color: #ff190083;
   background-image: url("images/orange_squares.svg");
   background-size: cover;
   background-clip: text;
@@ -176,6 +176,11 @@ h4 {
   background-size: cover, cover;
   padding: 5%;
   text-align: center;
+}
+
+.headline-about .hamburger,
+.headline-about .close-icon {
+  align-self: flex-start;
 }
 
 .contact-about {
