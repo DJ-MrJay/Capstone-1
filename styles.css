@@ -41,7 +41,6 @@ h4 {
   font-style: italic;
 }
 
-.headline h1,
 .headline h2 {
   color: #ec5242;
 }
@@ -131,11 +130,11 @@ h4 {
   background-color: #ec5242;
   width: 80%;
   padding: 1.3rem;
-  color: #ffffff;
+  color: #fff;
 }
 
 .tickets a {
-  color: #ffffff;
+  color: #fff;
 }
 
 .artists {
