@@ -1,5 +1,5 @@
 # Microverse HTML, CSS, & JS Capstone Project
-This website is a promotion website for the upcoming music concert to promote world peace. The concert will be held in Nairobi. Information about the concert schedule, performances and tickets can be found throughout the site. The website content is entirely fictional. 
+This website is a promotion website for the upcoming music concert to promote world peace. The concert will be held in Nairobi. Information about the concert schedule, performances and ticketing can be found throughout the site. The website content is entirely fictional. 
 
 I built this website from scratch without the use of any framework technology.
 
