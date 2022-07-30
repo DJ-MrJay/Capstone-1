@@ -12,9 +12,9 @@ To setup, follow these simple steps.
 - Run with live server or simply open index.html with your browser.
 
 ## Author
-- GitHub: [@githubhandle](https://github.com/DJ-MrJay)
-- Twitter: [@twitterhandle](https://twitter.com/jonah_wambua)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mr-jay/)
+- [GitHub](https://github.com/DJ-MrJay)
+- [Twitter](https://twitter.com/jonah_wambua)
+- [LinkedIn](https://www.linkedin.com/in/mr-jay/)
 
 ## Contributors
 - Contributions and feature requests are welcome!
