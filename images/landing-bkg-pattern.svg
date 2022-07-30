@@ -3,26 +3,27 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.95;fill:#FFFFFF;enable-background:new    ;}
+	.st0{opacity:0.9;fill:#FFFFFF;enable-background:new    ;}
 	.st1{fill:#21262E;}
 	.st2{fill:none;stroke:#FF513F;stroke-width:9.7213;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st3{opacity:0.5;}
 	.st4{opacity:0.5;enable-background:new    ;}
 	.st5{stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st6{stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
-	.st7{opacity:0.3;}
-	.st8{opacity:0.29;}
+	.st6{opacity:0.5;fill:#FF513F;enable-background:new    ;}
+	.st7{stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st8{opacity:0.3;}
+	.st9{opacity:0.29;}
 </style>
 <rect x="-23" y="-25" class="st0" width="1977" height="1130"/>
 <g>
 	
-		<image style="overflow:visible;opacity:0.75;enable-background:new    ;" width="299" height="62" xlink:href="61E0277A.png"  transform="matrix(0.9961 0 0 0.9961 732.7458 474.2874)">
+		<image style="overflow:visible;opacity:0.75;enable-background:new    ;" width="299" height="62" xlink:href="61E0277A.png"  transform="matrix(0.7043 -0.7043 0.7043 0.7043 1504.5304 588.631)">
 	</image>
 	<g>
-		<polyline class="st1" points="741.8,486.7 775.6,520 809.4,486.7 843.2,520 877,486.7 910.8,520 944.6,486.7 978.4,520 
-			1012.2,486.7 		"/>
-		<polyline class="st2" points="741.8,486.7 775.6,520 809.4,486.7 843.2,520 877,486.7 910.8,520 944.6,486.7 978.4,520 
-			1012.2,486.7 		"/>
+		<polyline class="st1" points="1519.7,591 1567.2,590.7 1567.5,543.2 1615,542.9 1615.3,495.4 1662.8,495.1 1663.1,447.6 
+			1710.6,447.3 1710.9,399.8 		"/>
+		<polyline class="st2" points="1519.7,591 1567.2,590.7 1567.5,543.2 1615,542.9 1615.3,495.4 1662.8,495.1 1663.1,447.6 
+			1710.6,447.3 1710.9,399.8 		"/>
 	</g>
 </g>
 <g class="st3">
@@ -208,7 +209,7 @@
 		<path d="M1865.9,273.3c-0.5-0.2-1.1-0.4-1.8-0.4c-1.8,0-3.3,1-4,2.5c-0.3,0.6-0.5,1.3-0.5,2c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5
 			C1868.6,275.6,1867.5,274,1865.9,273.3z"/>
 	</g>
-	<ellipse class="st4" cx="163.3" cy="174.5" rx="14.6" ry="14.6"/>
+	<ellipse class="st6" cx="163.3" cy="174.5" rx="14.6" ry="14.6"/>
 	<g class="st3">
 		<path d="M87.7,829.7c-2.4,0-4.4,2-4.4,4.4s2,4.4,4.4,4.4s4.4-2,4.4-4.4S90.1,829.7,87.7,829.7z"/>
 		<path d="M117.8,829.7c-2.4,0-4.4,2-4.4,4.4c0,0.1,0,0.3,0,0.4c0.2,2.2,2.1,4,4.4,4c2.4,0,4.4-2,4.4-4.4l0,0
@@ -307,20 +308,20 @@
 			C182.5,1126.4,181.4,1124.8,179.8,1124.2z"/>
 	</g>
 	<g class="st3">
-		<path class="st6" d="M1724.3,933c-4,0-7.3-3.3-7.3-7.3v-39.2c0-4,3.3-7.3,7.3-7.3c1.3,0,2.5,0.3,3.7,1l34,19.6
+		<path class="st7" d="M1724.3,933c-4,0-7.3-3.3-7.3-7.3v-39.2c0-4,3.3-7.3,7.3-7.3c1.3,0,2.5,0.3,3.7,1l34,19.6
 			c2.3,1.3,3.7,3.7,3.7,6.3s-1.4,5-3.7,6.3l-33.9,19.6C1726.8,932.7,1725.5,933,1724.3,933z"/>
 		<path d="M1758.5,905.6c0.4,0.2,0.4,0.7,0,0.9l-17,9.8l-17,9.8c-0.4,0.2-0.8-0.1-0.8-0.5V906v-19.6c0-0.4,0.5-0.7,0.8-0.5l17,9.8
 			L1758.5,905.6z"/>
 	</g>
-	<g class="st7">
-		<g class="st8">
-			<rect x="570.3" y="800.9" transform="matrix(0.6305 -0.7762 0.7762 0.6305 -59.1763 1507.0901)" width="1966.3" height="29.6"/>
+	<g class="st8">
+		<g class="st9">
+			<rect x="570.3" y="800.8" transform="matrix(0.6305 -0.7762 0.7762 0.6305 -59.0673 1507.1237)" width="1966.3" height="29.6"/>
 		</g>
-		<g class="st8">
-			<rect x="170.2" y="385.6" transform="matrix(0.6305 -0.7762 0.7762 0.6305 115.298 1043.0953)" width="1966.3" height="29.6"/>
+		<g class="st9">
+			<rect x="170.1" y="385.5" transform="matrix(0.6305 -0.7762 0.7762 0.6305 115.4177 1043.0845)" width="1966.3" height="29.6"/>
 		</g>
-		<g class="st8">
-			<rect x="289.5" y="661.2" transform="matrix(0.6305 -0.7762 0.7762 0.6305 -71.7505 1245.7627)" width="1966.3" height="74.2"/>
+		<g class="st9">
+			<rect x="289.5" y="661.1" transform="matrix(0.6305 -0.7762 0.7762 0.6305 -71.6856 1245.835)" width="1966.3" height="74.2"/>
 		</g>
 	</g>
 </g>
