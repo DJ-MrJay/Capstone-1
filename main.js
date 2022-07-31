@@ -25,14 +25,14 @@ const artist = [{
   image: 'images/OneRepublic.jpg',
   name: 'OneRepublic',
   performance: 'Hits from their latest album',
-  description: 'OneRepublic is an American pop rock band formed in Colorado Springs, Colorado, in 2002. The band achieved its first commercial success on Myspace as an unsigned act.',
+  description: 'OneRepublic is an American pop band formed in Colorado Springs, in 2002. The band achieved its first success on Myspace as an unsigned act.',
 },
 
 {
   image: 'images/TheLumineer.jpg',
   name: 'Lumineers',
   performance: 'Hits from their latest album',
-  description: 'The Lumineers are an American folk rock band based in Denver, Colorado. The founding members are Wesley Schultz (lead vocals, guitar) and Jeremiah Fraites (drums, percussion, piano).',
+  description: 'The Lumineers are an American folk rock band based in Denver, Colorado. The founding members are Wesley Schultz and Jeremiah Fraites.',
 },
 
 {

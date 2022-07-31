@@ -37,21 +37,29 @@
   color: #ec5242;
 }
 
-.program-title:after,
-.artists-title:after,
-.logo-about h3:after,
-.partners-title:after {
+.program-title::after,
+.artists-title::after,
+.logo-about h3::after,
+.partners-title::after {
   content: "";
   display: block;
   width: 3rem;
   padding-top: 1rem;
   border-bottom: 2px solid #ec5242;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 h4 {
   font-style: italic;
   color: #ec5242;
+}
+
+.description h4::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  padding-top: 1rem;
+  border-bottom: 2px solid #d3d3d3;
 }
 
 .headline h2 {
@@ -155,7 +163,7 @@ h4 {
 }
 
 .program button:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #ec5242;
 }
 
@@ -391,6 +399,10 @@ footer h6 {
 
 .hamburger {
   color: #272a31;
+}
+
+.hamburger:hover {
+  color: #ec5242;
 }
 
 .close-icon {
