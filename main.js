@@ -79,6 +79,19 @@ for (let i = 0; i < artist.length; i += 1) {
   </li>`;
 }
 
+// Read More/Less button
+
+// const readMore = document.querySelector('#more');
+
+// readMore.addEventListener('click', event => {
+//   const current = event.target;
+//   const isReadMoreBtn = current.className.includes('more');
+//   if (!isReadMoreBtn) return;
+//   const currentText = event.target.parentNode.querySelector('.more-items');
+//   currentText.classList.toggle('more-items--show');
+// }
+// )
+
 // Sticky Navbar
 
 const navbar = document.getElementById('navbar');

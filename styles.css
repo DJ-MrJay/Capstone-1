@@ -37,6 +37,18 @@
   color: #ec5242;
 }
 
+.program-title:after,
+.artists-title:after,
+.logo-about h3:after,
+.partners-title:after {
+  content: "";
+  display: block;
+  width: 3rem;
+  padding-top: 1rem;
+  border-bottom: 2px solid #ec5242;
+  margin:0 auto;
+}
+
 h4 {
   font-style: italic;
   color: #ec5242;
@@ -139,6 +151,12 @@ h4 {
   padding: 1.3rem;
   color: #fff;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.program button:hover {
+  background-color: #ffffff;
+  color: #ec5242;
 }
 
 .artists {
@@ -150,15 +168,45 @@ h4 {
   background-color: #f8f8f8;
 }
 
-.artists button {
+/* .artists button {
   border: #e5e5e5 1px solid;
   border-radius: 3px;
   background-color: white;
   width: 100%;
   padding: 15px;
+  cursor: pointer;
+} */
+
+/* .more-items {
+  display: none;
 }
 
+.more-items--show {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+} */
+
 .more {
+  border: #e5e5e5 1px solid;
+  border-radius: 3px;
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.less {
+  border: #e5e5e5 1px solid;
+  border-radius: 3px;
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,8 +217,20 @@ h4 {
   color: #ec5242;
 }
 
+.fa-chevron-up {
+  color: #ec5242;
+}
+
 .thumbnail img {
-  max-width: 100%;
+  max-width: 90%;
+  margin-top: 12%;
+  margin-left: 12%;
+}
+
+.thumbnail {
+  background-image: url(images/checkered-boxes-1.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
 
 .headline-about {
@@ -478,12 +538,12 @@ footer h6 {
     padding: 5% 15%;
   }
 
-  .artists button {
+  .more {
     display: none;
   }
 
-  .thumbnail img {
-    max-width: 100%;
+  .thumbnail {
+    background-image: url(images/checkered-boxes-2.svg);
   }
 
   .headline-about {
